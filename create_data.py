@@ -23,7 +23,7 @@ for line in input_label:
     labels[nums[0]] = int(nums[1])
 input_label.close()
     
-input1 = open("emb/cora.emb")
+input1 = open("emb/BlogCatalog.emb")
 next(input1)
 for line in input1:
     nums = line.split()

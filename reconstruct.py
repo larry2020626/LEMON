@@ -22,12 +22,3 @@ for line in input_file:
     id += 1
 input_file.close()
 output.close()
-
-# input_file = open("undirected_cora.edges")
-# output = open("undirected_cora.edges_new", "w")
-# next(input_file)
-# for line in input_file:
-#     nums = line.split()
-#     output.write(nums[0] + " " + nums[1] + " 1\n")
-# input_file.close()
-# output.close()
