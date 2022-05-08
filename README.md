@@ -1,8 +1,8 @@
 # LEMON
 
-This repository provides a reference implementation of LEMON algorithm.
+This repository provides an implementation of LEMON in [1], a network embedding algorithm via structural pattern motifs,  which bridges connectivity and structural similarity in a uniform representation,  .
 
-## Requirements
+### Requirements
 python 2.7, gensim, networkx, numpy
 
 ### Input file
@@ -35,3 +35,22 @@ python LightGBM.py
 ```
 
 This project referes the code of project node2vec: <https://github.com/aditya-grover/node2vec> .
+
+
+
+### Reference
+
+[1] Shao P, Yang Y, Xu S, et al. Network Embedding via Motifs[J]. ACM Transactions on Knowledge Discovery from Data (TKDD), 2021, 16(3): 1-20.
+
+```bib
+@article{shao2021network,
+  title={Network Embedding via Motifs},
+  author={Shao, Ping and Yang, Yang and Xu, Shengyao and Wang, Chunping},
+  journal={ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  volume={16},
+  number={3},
+  pages={1--20},
+  year={2021},
+  publisher={ACM New York, NY}
+}
+```
